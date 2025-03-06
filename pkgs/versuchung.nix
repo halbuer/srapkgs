@@ -12,10 +12,10 @@ buildPythonPackage rec {
   version = "1.4.2";
 
   src = fetchFromGitHub {
-    owner = "stettberger";
+    owner = "halbuer";
     repo = "versuchung";
-    rev = "466358f6e7c488e73b650b6c89916ddf62cc4e50";
-    hash = "sha256-ZVMzQbhxO91gKDZAZNYbmg976kgibzFYbsQaHgouNw0=";
+    rev = "c78dbbef81db2e6a4fb0dfbfedefefbbec7436cb";
+    hash = "sha256-LV1flf8kwOIr/sDCAiGRAmPdi4hijAi57nc9/UpUSJ4=";
   };
 
   # do not run tests
